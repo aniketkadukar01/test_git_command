@@ -4,4 +4,6 @@ from django.db import models
 
 class app1_model(models.Model):
     first_name = models.CharField()
-    last_name = models.CharField
+    last_name = models.CharField()
+    email = models.EmailField()
+    phone_number = models.IntegerField()
